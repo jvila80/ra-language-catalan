@@ -37,7 +37,7 @@ const catalanMessages: TranslationMessages = {
       dashboard: "panell",
       edit: " %{name} # %{id}",
       error: "Alguna cosa ha anat malament",
-      list: "%{nom}",
+      list: "%{name}",
       loading: "Carregant",
       not_found: "No trobat",
       show: " %{name} # %{id}",

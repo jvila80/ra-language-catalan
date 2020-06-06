@@ -1,6 +1,6 @@
 {
   "name": "@joshfradley/ra-language-catalan",
-  "version": "3.6.2",
+  "version": "3.6.3",
   "description": "Catalan messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
   "repository": {
     "type": "git",
