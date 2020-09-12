@@ -25,7 +25,7 @@ const catalanMessages: TranslationMessages = {
       sort: "Ordenar",
       undo: "Desfer",
       confirm: "Confirmeu",
-      unselect: "Deselect",
+      unselect: "Desseleccionar",
       expand: "Ampliar",
       close: "Tanca",
       open_menu: "Obre el menú",
@@ -102,6 +102,11 @@ const catalanMessages: TranslationMessages = {
       page_rows_per_page: "Files per pàgina:",
       next: "Següent",
       prev: "Anterior"
+    },
+    sort: {
+      sort_by: "Ordenar per %{field} %{order}",
+      ASC: "ascendent",
+      DESC: "descendent",
     },
     auth: {
       user_menu: "Perfil",
