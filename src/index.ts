@@ -34,7 +34,7 @@ const catalanMessages: TranslationMessages = {
     boolean: {
       true: "Si",
       false: "No",
-      null: ""
+      null: " "
     },
     page: {
       create: "Crear %{name}",
