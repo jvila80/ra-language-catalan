@@ -29,12 +29,12 @@ const catalanMessages: TranslationMessages = {
       expand: "Ampliar",
       close: "Tanca",
       open_menu: "Obre el menú",
-      close_menu: "Tanca el menú"
+      close_menu: "Tanca el menú",
     },
     boolean: {
       true: "Si",
       false: "No",
-      null: " "
+      null: " ",
     },
     page: {
       create: "Crear %{name}",
@@ -46,29 +46,31 @@ const catalanMessages: TranslationMessages = {
       not_found: "No s'ha trobat",
       show: "%{name} #%{id}",
       empty: "Encara no hi ha %{name}.",
-      invite: "¿Vol afegir una?"
+      invite: "¿Vol afegir una?",
     },
     input: {
       file: {
         upload_several:
           "Arrossega els fitxers a pujar o clica per seleccionar-ne un.",
-        upload_single: "Arrossega el fitxer a pujar o clica per seleccionar-lo."
+        upload_single:
+          "Arrossega el fitxer a pujar o clica per seleccionar-lo.",
       },
       image: {
         upload_several:
           "Arrossega les imatges a pujar o clica per seleccionar-ne una.",
-        upload_single: "Arrossega la imatge a pujar o clica per seleccionar-la."
+        upload_single:
+          "Arrossega la imatge a pujar o clica per seleccionar-la.",
       },
       references: {
         all_missing: "No s'han pogut trobar referències.",
         many_missing:
           "Al menys una de les referències associades no sembla estar disponible.",
-        single_missing: "La referència associades ja no està disponible."
+        single_missing: "La referència associades ja no està disponible.",
       },
       password: {
         toggle_visible: "Amagueu la contrasenya",
-        toggle_hidden: "Mostrar contraseña"
-      }
+        toggle_hidden: "Mostrar contraseña",
+      },
     },
     message: {
       about: "Sobre",
@@ -89,7 +91,7 @@ const catalanMessages: TranslationMessages = {
         "O bé ha escrit una URL incorrecta, o bé ha navegat a un enllaç erroni.",
       yes: "Sí",
       unsaved_changes:
-        "Alguns dels canvis no s'han desat. Esteu segur que voleu ignorar-les?"
+        "Alguns dels canvis no s'han desat. Esteu segur que voleu ignorar-les?",
     },
     navigation: {
       no_results: "Sense resultats",
@@ -101,7 +103,8 @@ const catalanMessages: TranslationMessages = {
       page_range_info: "%{offsetBegin} - %{offsetEnd} de %{total}",
       page_rows_per_page: "Files per pàgina:",
       next: "Següent",
-      prev: "Anterior"
+      prev: "Anterior",
+      skip_nav: "Ves al contingut",
     },
     sort: {
       sort_by: "Ordenar per %{field} %{order}",
@@ -115,7 +118,7 @@ const catalanMessages: TranslationMessages = {
       sign_in: "Iniciar sessió",
       sign_in_error: "Ha fallat l'autenticació, si us plau torni a provar-ho",
       logout: "Tancar sessió",
-      auth_check_error: "Inicieu la sessió per continuar"
+      auth_check_error: "Inicieu la sessió per continuar",
     },
     notification: {
       updated: "Element actualitzat |||| %{smart_count} elements actualitzats",
@@ -129,7 +132,7 @@ const catalanMessages: TranslationMessages = {
         "Error del dataProvider. Comprova la consola per més detalls.",
       canceled: "Acció cancel·lada",
       i18n_error:
-        "No es poden carregar les traduccions per a l'idioma especificat"
+        "No es poden carregar les traduccions per a l'idioma especificat",
     },
     validation: {
       required: "Obligatori",
@@ -140,9 +143,9 @@ const catalanMessages: TranslationMessages = {
       number: "Ha de ser un valor numèric",
       email: "Ha de ser una adreça electrònica vàlida",
       oneOf: "Ha de ser un d'aquests valors: %{options}",
-      regex: "Ha de complir el format (expressió regular): %{pattern}"
-    }
-  }
+      regex: "Ha de complir el format (expressió regular): %{pattern}",
+    },
+  },
 };
 
 export default catalanMessages;
