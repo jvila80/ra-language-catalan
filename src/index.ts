@@ -12,6 +12,7 @@ const catalanMessages: TranslationMessages = {
       clear_input_value: "Netejar valor",
       clone: "Clonar",
       create: "Crear",
+      create_item: "Crear %{item}",
       delete: "Eliminar",
       edit: "Editar",
       export: "Exportar",
