@@ -11,6 +11,7 @@ const catalanMessages: TranslationMessages = {
       cancel: "Cancel·lar",
       clear_input_value: "Netejar valor",
       clone: "Clonar",
+      confirm: "Confirmeu",
       create: "Crear",
       create_item: "Crear %{item}",
       delete: "Eliminar",
@@ -25,12 +26,12 @@ const catalanMessages: TranslationMessages = {
       show: "Mostrar",
       sort: "Ordenar",
       undo: "Desfer",
-      confirm: "Confirmeu",
       unselect: "Desseleccionar",
       expand: "Ampliar",
       close: "Tanca",
       open_menu: "Obre el menú",
       close_menu: "Tanca el menú",
+      update: "Actualització",
     },
     boolean: {
       true: "Si",
@@ -80,6 +81,10 @@ const catalanMessages: TranslationMessages = {
         "Està segur d'eliminar l'element %{name}? |||| Està segur d'eliminar aquests %{smart_count} elements?",
       bulk_delete_title:
         "Eliminar %{name} |||| Eliminar %{smart_count} %{name} elements",
+      bulk_update_content:
+        "Esteu segur que voleu actualitzar aquest %{name}? |||| Esteu segur que voleu actualitzar aquests %{smart_count} elements?",
+      bulk_update_title:
+        "Actualitzar %{name} |||| Actualitza %{smart_count} %{name}",
       delete_content: "Està segur d'eliminar aquest element?",
       delete_title: "Eliminar %{name} #%{id}",
       details: "Detalls",
@@ -113,27 +118,28 @@ const catalanMessages: TranslationMessages = {
       DESC: "descendent",
     },
     auth: {
+      auth_check_error: "Inicieu la sessió per continuar",
       user_menu: "Perfil",
       username: "Usuari",
       password: "Contrasenya",
       sign_in: "Iniciar sessió",
       sign_in_error: "Ha fallat l'autenticació, si us plau torni a provar-ho",
       logout: "Tancar sessió",
-      auth_check_error: "Inicieu la sessió per continuar",
     },
     notification: {
       updated: "Element actualitzat |||| %{smart_count} elements actualitzats",
       created: "Element creat",
       deleted: "Element eliminat |||| %{smart_count} elements eliminats",
       bad_item: "Element incorrecte",
-      logged_out: "La seva sessió ha finalitzat, torneu a connectar-se.",
       item_doesnt_exist: "L'element no existeix",
       http_error: "Error de comunicació amb el servidor",
       data_provider_error:
         "Error del dataProvider. Comprova la consola per més detalls.",
-      canceled: "Acció cancel·lada",
       i18n_error:
         "No es poden carregar les traduccions per a l'idioma especificat",
+      canceled: "Acció cancel·lada",
+      logged_out: "La seva sessió ha finalitzat, torneu a connectar-se.",
+      not_authorized: "No teniu autorització per accedir a aquest recurs.",
     },
     validation: {
       required: "Obligatori",
